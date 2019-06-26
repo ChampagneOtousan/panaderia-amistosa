@@ -1,6 +1,7 @@
 require "sinatra"
 require "edamam-ruby"
 require "httparty"
+require "./class.rb"
 
 # Cookies
 
