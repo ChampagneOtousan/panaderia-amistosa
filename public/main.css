@@ -1,5 +1,3 @@
-nav ul li a {
-  text-decoration: none;
-  text-align: center;
-  display: flex;
+.navbar  {
+  font-size: 1.8em;
 }
