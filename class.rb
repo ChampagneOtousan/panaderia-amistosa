@@ -7,9 +7,9 @@ class Cake
 
     end
 
-  end
+end
 
-  class Cookie
+class Cookie
     attr_accessor :title, :price, :image
     def initialize(title, price, image)
       @title = title
@@ -17,9 +17,9 @@ class Cake
       @image = image
     end
 
-  end
+end
 
-  class Muffin
+class Muffin
     attr_accessor :title, :price, :image
     def initialize(title, price, image)
       @title = title
@@ -27,4 +27,4 @@ class Cake
       @image = image
     end
 
-  end
+end
