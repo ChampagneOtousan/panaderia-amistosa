@@ -1,6 +1,7 @@
 source "https://rubygems.org" do
 
   gem "sinatra"
-  gem "pry"
-  
+  gem "httparty"
+  gem "edamam-ruby"
+
 end
