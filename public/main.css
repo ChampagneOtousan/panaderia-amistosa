@@ -1,3 +1,9 @@
 .navbar  {
   font-size: 1.8em;
 }
+
+.muffin-top {
+  grid-column: auto;
+  height: 50px;
+  width: 45px;
+}

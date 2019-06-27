@@ -42,13 +42,22 @@ get "/contact" do
 end
 
 get "/cookies" do
+  @chocolate_chip = chocolate_chip
+  @smore_cookie = smore_cookie
+  @coconut_cookie = coconut_cookie
   erb :cookies
 end
 
 get "/cakes" do
+  @red_cake = red_cake
+  @cheese_cake = cheese_cake
+  @pineapple_cake = pineapple_cake
   erb :cakes
 end
 
 get "/muffins" do
+  @carrot_muffin = carrot_muffin
+  @chocolate_muffin = berry_muffin
+  @berry_muffin = berry_muffin
   erb :muffins
 end
